@@ -18,6 +18,12 @@
 
     background: rgba(31, 34, 41, 0.5);
 
+    transition: background 0.2s;
+
+    &:hover {
+      background: rgba(31, 34, 41, 0.3);
+    }
+
     .movie-info {
       max-width: 12.31rem;
       width: 100%;
